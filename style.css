@@ -1,0 +1,91 @@
+/*
+Stylesheet for Titansoft test
+
+Author
+Name: Lim Wei Cheng
+Email: wclim@outlook.com
+*/
+
+html{
+  	height: 100%;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+
+body {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	min-height: 100%;
+}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#5cbf2a;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 37px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #18ab29), color-stop(1, #18ab29));
+	background:-moz-linear-gradient(top, #18ab29 5%, #18ab29 100%);
+	background:-webkit-linear-gradient(top, #18ab29 5%, #18ab29 100%);
+	background:-o-linear-gradient(top, #18ab29 5%, #18ab29 100%);
+	background:-ms-linear-gradient(top, #18ab29 5%, #18ab29 100%);
+	background:linear-gradient(to bottom, #18ab29 5%, #18ab29 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#18ab29', endColorstr='#18ab29',GradientType=0);
+	background-color:#18ab29;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.results, .error {
+	display:none;
+}
+
+.results div{
+	margin: 15px 15px 15px 15px;
+	border-width: 1px;
+	border-color: black;
+	border-style:solid;
+	float: left;
+	display: table-row;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+	width: 10%;
+}
+
+#days, #workerNames{
+	font-weight: bold;
+}
+
+.wrapper{
+	padding:10px;
+}
+
+.wrapper div{
+  	justify-content: center;
+  	align-items: center;
+	margin:20px;
+}

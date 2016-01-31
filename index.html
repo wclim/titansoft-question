@@ -1,0 +1,53 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- 
+For Titansoft Product Developer Question
+
+Tested on IE11, Google Chrome Version 47.9.2526.111 m and Firefox 42.0
+
+Author
+Name: Lim Wei Cheng
+Email: wclim@outlook.com
+-->
+<html>
+
+	<head>
+		<title>Titansoft shift work allocator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<center><a class="myButton" id="input">Select input file</a>
+			<div  class="results">
+			The work schedule arrangement for the following week is as follows:
+				<table>
+				  <tr id="days">
+				  </tr>
+				  <tr id="workers">
+				  </tr>
+				</table>
+			<br>
+			The individual work schedules are as follows:
+				<table>
+				  <tr id="workerNames">
+				  </tr>
+				  <tr id="workersDays">
+				  </tr>
+				</table>
+			</div>
+			<div class="error"></div>
+			</center>
+		</div>
+
+		<script src="js/jquery-2.2.0.min.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/allocator.js"></script>
+		<script src="js/worker.js"></script>
+		<script src="js/output.js"></script>
+	</body>
+</html>
